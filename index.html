@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenue / Welcome</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
-        .lang-chooser {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 100px;
-            gap: 20px;
-        }
-        .lang-chooser a {
-            padding: 15px 30px;
-            background-color: #b6e3fa;
-            color: #000;
-            text-decoration: none;
-            font-size: 1.2em;
-            border-radius: 10px;
-            font-weight: bold;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bienvenue – Appartement à Nice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #fdfaf6;
+      color: #333;
+      text-align: center;
+      padding: 50px;
+    }
+    h1 {
+      color: #c29245;
+      margin-bottom: 40px;
+    }
+    .lang-select {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+    .lang-select a {
+      display: inline-block;
+      padding: 15px 25px;
+      background-color: #c29245;
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      border-radius: 8px;
+      font-size: 18px;
+    }
+    .lang-select a:hover {
+      background-color: #a67c35;
+    }
+  </style>
 </head>
 <body>
-    <div class="lang-chooser">
-        <h1>Bienvenue / Welcome</h1>
-        <a href="fr/index.html">Français</a>
-        <a href="en/index.html">English</a>
-    </div>
+  <h1>Bienvenue dans votre appartement à Nice</h1>
+  <div class="lang-select">
+    <a href="fr/accueil.html">Version Française</a>
+    <a href="en/home.html">English Version</a>
+  </div>
 </body>
 </html>
