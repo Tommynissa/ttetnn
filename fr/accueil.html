@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Accueil – Guide de l'appartement</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fdfdf8;
+      color: #2c361c;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    h1 {
+      color: #5a6e3f;
+      padding: 20px 0;
+      font-size: 24px;
+    }
+    .icon-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .icon-card {
+      text-decoration: none;
+      color: #2c361c;
+      background: #f1f7ef;
+      border-radius: 12px;
+      padding: 15px;
+      transition: transform 0.2s, background 0.3s;
+    }
+    .icon-card:hover {
+      transform: scale(1.05);
+      background: #e1eedd;
+    }
+    .icon-card img {
+      width: 60px;
+      height: auto;
+    }
+    .icon-card span {
+      display: block;
+      margin-top: 10px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+<body>
+  <h1>Choisissez une section</h1>
+  <div class="icon-grid">
+    <a href="checkin.html" class="icon-card"><img src="icons/checkin.png"><span>Check-in/out</span></a>
+    <a href="equipement.html" class="icon-card"><img src="icons/equipement.png"><span>Équipement</span></a>
+    <a href="acces.html" class="icon-card"><img src="icons/acces.png"><span>Accès</span></a>
+    <a href="nice.html" class="icon-card"><img src="icons/nice.png"><span>Découvrir Nice</span></a>
+    <a href="transport.html" class="icon-card"><img src="icons/transport.png"><span>Transports</span></a>
+    <a href="wifi.html" class="icon-card"><img src="icons/wifi.png"><span>Wi-Fi</span></a>
+    <a href="restauration.html" class="icon-card"><img src="icons/restauration.png"><span>Restauration</span></a>
+    <a href="regles.html" class="icon-card"><img src="icons/regles.png"><span>Règles</span></a>
+    <a href="urgences.html" class="icon-card"><img src="icons/urgences.png"><span>Urgences</span></a>
+  </div>
+</body>
+</html>
