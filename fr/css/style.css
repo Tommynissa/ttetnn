@@ -1,0 +1,28 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+header, nav, footer {
+    background-color: #d4e1c5;
+    color: #2e3d27;
+    padding: 1em;
+    text-align: center;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #2e3d27;
+}
+a.button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #8a9a5b;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
