@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Météo à Nice</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #fff;
+      padding: 2em;
+      color: #2e3d27;
+      text-align: center;
+    }
+    .section {
+      max-width: 700px;
+      margin: 2em auto;
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+      overflow: hidden;
+    }
+    .section-title {
+      background-color: #a7b77d;
+      color: white;
+      font-weight: bold;
+      padding: 1em;
+      font-size: 1.3em;
+    }
+    .section-content {
+      background: #f8f9f3;
+      padding: 1em;
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+    a.button {
+      display: inline-block;
+      background-color: #a7b77d;
+      color: white;
+      padding: 12px 24px;
+      border-radius: 25px;
+      text-decoration: none;
+      margin-top: 2em;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <a href="index.html" style="text-decoration: none; color: #7a8a47; font-weight: bold;">← Accueil</a>
+
+  <h1>Météo à Nice</h1>
+
+  <div class="section">
+    <div class="section-title">Prévisions météo</div>
+    <div class="section-content">
+      <img src="https://www.meteoblue.com/packages/three_days_b_gif?geoloc=city&apikey=demo&city=Nice" alt="Prévision météo Nice">
+      <p style="font-size: 0.85em;">Source : <a href="https://www.meteoblue.com" target="_blank">meteoblue.com</a></p>
+    </div>
+  </div>
+
+  <a class="button" href="index.html">Retour à l’accueil</a>
+
+</body>
+</html>
