@@ -1,47 +1,27 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <title>Bienvenue</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body {
-      font-family: sans-serif;
-      background: #fff;
-      margin: 0;
-      padding: 2em;
-      color: #2e3d27;
-      text-align: center;
-    }
-    .meteo {
-      margin-bottom: 2em;
-    }
-    .widget-container {
-      display: flex;
-      justify-content: center;
-    }
-  </style>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bienvenue</title>
+<link href="../css/style.css" rel="stylesheet"/>
 </head>
 <body>
+<img alt="Bienvenue à Nice" class="header-img" src="../images/header.jpg"/>
+<h1>Bienvenue dans votre logement</h1>
 
-  <div class="meteo">
-    <div class="widget-container">
-      <iframe src="https://services.meteored.com/widget/widget.php?Contenido=pronostico&Idioma=FR&Loc=84605&Temp=C&Cel=si&Modo=tab&Estilo=7&Res=hor" frameborder="0" scrolling="no" width="280" height="90"></iframe>
-    </div>
-  </div>
-
-  <h1>Bienvenue à Nice</h1>
-
-  <div>
-    <a href="checkin_checkout.html">Accès et infos pratiques</a><br>
-    <a href="equipements.html">Équipements</a><br>
-    <a href="restauration.html">Restauration</a><br>
-    <a href="a_visiter.html">À visiter</a><br>
-    <a href="courses.html">Courses</a><br>
-    <a href="transports.html">Transports</a><br>
-    <a href="urgences.html">Urgences</a><br>
-    <a href="meteo.html">Météo</a>
-  </div>
-
+<div class="meteo" style="text-align:center; margin-bottom: 2em;">
+<iframe frameborder="0" height="90" scrolling="no" src="https://www.tameteo.com/wid_loader/nice-france?force_lang=fr" width="275"></iframe>
+</div>
+<a class="button" href="checkin_checkout.html">Accès et infos pratiques</a>
+<a class="button" href="wifi.html">Wi-Fi</a>
+<a class="button" href="equipement.html">equipements</a>
+<a class="button" href="restauration.html">Restauration</a>
+<a class="button" href="lieux.html">À visiter</a>
+<a class="button" href="courses.html">Courses</a>
+<a class="button" href="transports.html">Transports</a>
+<a class="button" href="urgences.html">Urgences</a>
+<a class="button" href="meteo.html">Météo</a>
 </body>
 </html>
