@@ -14,27 +14,18 @@
     }
     .section-block {
       background-color: #f3f6ec;
-      border-radius: 14px;
+      border-left: 6px solid #7a8a47;
+      border-radius: 10px;
       padding: 1.5em;
       margin: 60px auto;
       max-width: 700px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-      display: flex;
-      align-items: flex-start;
-      gap: 1em;
-      flex-wrap: wrap;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
     }
-    .section-block img.icon {
-      width: 40px;
-      height: 40px;
-      flex-shrink: 0;
-    }
-    .section-block-content {
-      flex: 1 1 85%;
-    }
-    .section-block-content h2 {
+    .section-block h2 {
+      color: #7a8a47;
+      font-size: 1.4em;
       margin-top: 0;
-      font-size: 1.2em;
+      margin-bottom: 0.8em;
     }
     .google-button {
       display: inline-block;
@@ -46,19 +37,6 @@
       margin-top: 1em;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
-    .photo-block {
-      margin-top: 1em;
-      text-align: center;
-    }
-    .photo-block img {
-      width: 100%;
-      border-radius: 10px;
-      margin-bottom: 0.5em;
-    }
-    .photo-block p {
-      font-size: 0.95em;
-      color: #444;
-    }
   </style>
 </head>
 <body>
@@ -66,61 +44,50 @@
   <h1 style="text-align:center;">Accès et infos pratiques</h1>
 
   <div class="section-block">
-        <div class="section-block-content">
-      <h2>En route vers</h2>
-      <p>27 chemin de Terron<br />Bâtiment D<br />06200 Nice</p>
-      <a class="google-button" href="https://maps.google.com/?q=27+chemin+de+Terron+06200+Nice" target="_blank">Google Maps</a>
+    <h2>En route vers</h2>
+    <p>27 chemin de Terron<br />Bâtiment D<br />06200 Nice</p>
+    <a class="google-button" href="https://maps.google.com/?q=27+chemin+de+Terron+06200+Nice" target="_blank">Google Maps</a>
+  </div>
+
+  <div class="section-block">
+    <h2>Clefs</h2>
+    <p>Le trousseau se compose d’une clé pour l’ouverture de la porte d’entrée de l’appartement ainsi qu’un badge noir qui ouvre :</p>
+    <ul>
+      <li>le portail piéton et voiture de la résidence</li>
+      <li>la porte d’entrée de l’immeuble</li>
+    </ul>
+  </div>
+
+
+  <div class="section-block">
+    <h2>Parking</h2>
+    <p>Une place de parking privée <strong>N°72</strong> se situe en face de l’entrée de l’immeuble.</p>
+  </div>
+
+  <div class="section-block">
+    <h2>Check-in / Check-out</h2>
+    <p><strong>Check-in :</strong> autonome à partir de 16h via la boîte à clés.</p>
+    <p><strong>Check-out :</strong> avant 11h. Merci de replacer les clés dans la boîte à clés après votre départ.</p>
+  </div>
+
+  <div class="section-block">
+    <h2>Photos d’accès</h2>
+    <div class="photo-block">
+      <img src="../images/photo1.jpg" alt="Portail">
+      <p><strong>Photo 1 :</strong> 1 -> Ouverture portail piéton avec badge noir — 2 -> Ouverture portail voiture</p>
+      <img src="../images/photo2.jpg" alt="Allée résidence">
+      <p><strong>Photo 2 :</strong> Accès bâtiment D après la montée sur la gauche — Badge ou sonnette D32</p>
+      <img src="../images/photo3.jpg" alt="Entrée appartement">
+      <p><strong>Photo 3 :</strong> Appartement D32 — 2e étage — porte du milieu</p>
     </div>
   </div>
 
   <div class="section-block">
-        <div class="section-block-content">
-      <h2>Clefs</h2>
-      <p>Le trousseau se compose d’une clé pour l’ouverture de la porte d’entrée de l’appartement ainsi qu’un badge noir qui ouvre :</p>
-      <ul>
-        <li>le portail piéton et voiture de la résidence</li>
-        <li>la porte d’entrée de l’immeuble</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="section-block">
-        <div class="section-block-content">
-      <h2>Parking</h2>
-      <p>Une place de parking privée <strong>N°72</strong> se situe en face de l’entrée de l’immeuble.</p>
-    </div>
-  </div>
-
-  <div class="section-block">
-        <div class="section-block-content">
-      <h2>Check-in / Check-out</h2>
-      <p><strong>Check-in :</strong> autonome à partir de 16h via la boîte à clés.</p>
-      <p><strong>Check-out :</strong> avant 11h. Merci de replacer les clés dans la boîte à clés après votre départ.</p>
-    </div>
-  </div>
-
-  <div class="section-block">
-        <div class="section-block-content">
-      <h2>Photos d’accès</h2>
-      <div class="photo-block">
-        <img src="../images/photo1.jpg" alt="Portail">
-        <p><strong>Photo 1 :</strong> 1 -> Ouverture portail piéton avec badge noir — 2 -> Ouverture portail voiture</p>
-        <img src="../images/photo2.jpg" alt="Allée résidence">
-        <p><strong>Photo 2 :</strong> Accès bâtiment D après la montée sur la gauche — Badge ou sonnette D32</p>
-        <img src="../images/photo3.jpg" alt="Entrée appartement">
-        <p><strong>Photo 3 :</strong> Appartement D32 — 2e étage — porte du milieu</p>
-      </div>
-    </div>
-  </div>
-
-  <div class="section-block">
-        <div class="section-block-content">
-      <h2>Poubelle</h2>
-      <p>Le local poubelle se trouve à l’entrée de la résidence. Il contient des bacs jaunes pour le tri des emballages.</p>
-      <div class="photo-block">
-        <img src="../images/photo4.jpg" alt="Local poubelle">
-        <p><strong>Photo 4 :</strong> Local à droite de l’entrée</p>
-      </div>
+    <h2>Poubelle</h2>
+    <p>Le local poubelle se trouve à l’entrée de la résidence. Il contient des bacs jaunes pour le tri des emballages.</p>
+    <div class="photo-block">
+      <img src="../images/photo4.jpg" alt="Local poubelle">
+      <p><strong>Photo 4 :</strong> Local à droite de l’entrée</p>
     </div>
   </div>
 
