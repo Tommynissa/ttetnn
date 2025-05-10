@@ -32,11 +32,8 @@
       color: #333;
       text-align: center;
     }
-    iframe {
-      width: 100%;
-      height: 450px;
-      border: none;
-      margin-top: 1em;
+    .meteo-widget {
+      max-width: 100%;
     }
   </style>
 </head>
@@ -51,10 +48,17 @@
   <div class="section">
     <div class="section-title">Prévisions météo</div>
     <div class="section-content">
-      <div style="overflow-x:auto;"><iframe style="min-width:450px; max-width:100%; margin: 0 auto;" src="https://www.meteoblue.com/en/weather/widget/three/nice_france_2990440?geoloc=fixed&days=3&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&layout=image" allowtransparency="true"></iframe></div>
-      <div style="font-size: 0.8em; margin-top: 1em;">
-        <a href="https://www.meteoblue.com/fr/meteo/semaine/nice_france_2990440" target="_blank" style="color: #7a8a47; text-decoration: none;">Voir les prévisions détaillées</a>
-      </div>
+      <a class="weatherwidget-io" href="https://forecast7.com/fr/43d701e27/nice/" data-label_1="NICE" data-label_2="Prévisions" data-theme="original" >NICE Prévisions</a>
+      <script>
+        !function(d,s,id){
+          var js,fjs=d.getElementsByTagName(s)[0];
+          if(!d.getElementById(id)){
+            js=d.createElement(s);js.id=id;
+            js.src='https://weatherwidget.io/js/widget.min.js';
+            fjs.parentNode.insertBefore(js,fjs);
+          }
+        }(document,'script','weatherwidget-io-js');
+      </script>
     </div>
   </div>
 
