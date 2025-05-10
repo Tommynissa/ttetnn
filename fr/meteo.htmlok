@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Météo à Nice</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background: #fff;
+      padding: 2em;
+      color: #2e3d27;
+    }
+    .section {
+      border-radius: 12px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+      margin: 50px auto;
+      max-width: 700px;
+      overflow: hidden;
+    }
+    .section-title {
+      background-color: #a7b77d;
+      color: white;
+      font-weight: bold;
+      padding: 1em;
+      font-size: 1.3em;
+      text-align: center;
+    }
+    .section-content {
+      background: #f8f9f3;
+      padding: 1.5em;
+      color: #333;
+      text-align: center;
+    }
+    .meteo-widget {
+      max-width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <div style="text-align: left; margin-bottom: 1em;">
+    <a href="index.html" style="text-decoration: none; font-weight: bold; color: #7a8a47;">← Accueil</a>
+  </div>
+
+  <h1 style="text-align:center;">Météo à Nice</h1>
+
+  <div class="section">
+    <div class="section-title">Prévisions météo</div>
+    <div class="section-content">
+      <a class="weatherwidget-io" href="https://forecast7.com/fr/43d701e27/nice/" data-label_1="NICE" data-label_2="Prévisions" data-theme="original" >NICE Prévisions</a>
+      <script>
+        !function(d,s,id){
+          var js,fjs=d.getElementsByTagName(s)[0];
+          if(!d.getElementById(id)){
+            js=d.createElement(s);js.id=id;
+            js.src='https://weatherwidget.io/js/widget.min.js';
+            fjs.parentNode.insertBefore(js,fjs);
+          }
+        }(document,'script','weatherwidget-io-js');
+      </script>
+    </div>
+  </div>
+
+  <div style="text-align: center;">
+    <a href="index.html" style="display: inline-block; background-color: #a7b77d; color: white;
+      padding: 12px 24px; border-radius: 25px; text-decoration: none; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+      Retour à l’accueil
+    </a>
+  </div>
+
+</body>
+</html>
