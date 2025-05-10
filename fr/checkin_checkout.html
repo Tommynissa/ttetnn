@@ -6,20 +6,39 @@
   <title>Accès et infos pratiques</title>
   <link rel="stylesheet" href="../css/style.css">
   <style>
+    body {
+      background-color: #fff;
+      font-family: sans-serif;
+      padding: 1em;
+      color: #2e3d27;
+    }
     .nav-buttons a {
       margin: 0.5em;
     }
+    .header-img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 2em;
+    }
     section {
-      margin-bottom: 2.5em;
-      text-align: left;
-      max-width: 700px;
+      background-color: #f3f6ec;
+      padding: 1.5em;
+      border-radius: 10px;
+      margin-bottom: 2em;
+      max-width: 800px;
       margin-left: auto;
       margin-right: auto;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.05);
     }
     section img {
       width: 100%;
-      border-radius: 12px;
-      margin-top: 0.8em;
+      margin-top: 1em;
+      border-radius: 8px;
+    }
+    h1, h2 {
+      text-align: center;
     }
   </style>
 </head>
@@ -27,7 +46,7 @@
   <img src="../images/header.jpg" class="header-img" alt="Accès">
   <h1>Accès et infos pratiques</h1>
 
-  <div class="nav-buttons">
+  <div class="nav-buttons" style="text-align: center;">
     <a href="#acces" class="button">Accès</a>
     <a href="#parking" class="button">Parking</a>
     <a href="#checkin" class="button">Check-in / Check-out</a>
@@ -36,7 +55,7 @@
 
   <section id="acces">
     <h2>Adresse et accès</h2>
-    <p><strong>Adresse :</strong> 27 chemin de Terron, bâtiment D, 06200 Nice</p>
+    <p><strong>Adresse :</strong> <a href="https://maps.google.com/?q=27+chemin+de+Terron+06200+Nice" target="_blank">27 chemin de Terron, bâtiment D, 06200 Nice</a></p>
     <p><strong>Clés :</strong> Le trousseau contient une clé pour l’appartement et un badge noir. Ce badge ouvre :</p>
     <ul>
       <li>Le portail piéton et voiture de la résidence</li>
@@ -59,13 +78,13 @@
 
   <section id="checkin">
     <h2>Check-in / Check-out</h2>
-    <p><strong>Check-in :</strong> autonome à partir de 16h grâce à une boîte à clés</p>
-    <p><strong>Check-out :</strong> autonome avant 11h — merci de replacer les clés dans la boîte à clés</p>
+    <p><strong>Check-in :</strong> autonome à partir de 16h grâce à une boîte à clés.</p>
+    <p><strong>Check-out :</strong> autonome avant 11h — merci de replacer les clés dans la boîte à clés.</p>
   </section>
 
   <section id="poubelle">
     <h2>Poubelle</h2>
-    <p>Le local poubelle se trouve à l’entrée de la résidence (voir photo). Les conteneurs jaunes sont destinés au tri des emballages.</p>
+    <p>Le local poubelle se trouve à l’entrée de la résidence. Les conteneurs jaunes sont destinés au tri des emballages.</p>
     <img src="../images/photo4.jpg" alt="Local poubelle">
     <p><strong>Photo 4 :</strong> Local à droite de l’entrée</p>
   </section>
