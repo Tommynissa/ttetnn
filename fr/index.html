@@ -16,15 +16,13 @@
      Météo Nice
   </a>
 </div>
+<script src="https://weatherwidget.io/js/widget.min.js"></script>
 <script>
-  !function(d,s,id){
-    var js,fjs=d.getElementsByTagName(s)[0];
-    if(!d.getElementById(id)){
-      js=d.createElement(s);js.id=id;
-      js.src='https://weatherwidget.io/js/widget.min.js';
-      fjs.parentNode.insertBefore(js,fjs);
+  window.addEventListener("DOMContentLoaded", function() {
+    if (typeof __weatherwidget_init === "function") {
+      __weatherwidget_init();
     }
-  }(document,'script','weatherwidget-io-js');
+  });
 </script>
 <a class="button" href="checkin_checkout.html">Accès et infos pratiques</a>
 <a class="button" href="wifi.html">Wi-Fi</a>
