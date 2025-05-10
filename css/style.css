@@ -23,6 +23,11 @@ body {
   text-decoration: none;
   width: 80%;
   max-width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  transition: transform 0.1s ease-in-out;
+}
+.button:active {
+  transform: scale(0.98);
 }
 h1 {
   margin-bottom: 1em;
