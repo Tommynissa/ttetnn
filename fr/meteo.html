@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Météo</title>
+  <title>Météo à Nice</title>
   <style>
     body {
       font-family: sans-serif;
@@ -34,10 +34,9 @@
     }
     iframe {
       width: 100%;
-      max-width: 400px;
-      height: 250px;
+      height: 450px;
       border: none;
-      margin: 0 auto;
+      margin-top: 1em;
     }
   </style>
 </head>
@@ -52,7 +51,10 @@
   <div class="section">
     <div class="section-title">Prévisions météo</div>
     <div class="section-content">
-      <iframe src="https://www.meteocity.com/widget/nice_france/forecast-simple" title="Météo Nice"></iframe>
+      <iframe src="https://www.meteoblue.com/en/weather/widget/three/nice_france_2990440?geoloc=fixed&days=3&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&layout=image" allowtransparency="true"></iframe>
+      <div style="font-size: 0.8em; margin-top: 1em;">
+        <a href="https://www.meteoblue.com/fr/meteo/semaine/nice_france_2990440" target="_blank" style="color: #7a8a47; text-decoration: none;">Voir les prévisions détaillées</a>
+      </div>
     </div>
   </div>
 
