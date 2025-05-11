@@ -25,9 +25,28 @@ body::after {
   pointer-events: none;
   z-index: 0;
 }
+
+body {
+  
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+.button {
+  margin: 10px 0;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2em;
+  gap: 20px;
+}
 </style></head>
 <body>
-
 <h1>Bienvenue / Welcome</h1>
 <a class="button" href="fr/index.html">Français</a>
 <a class="button" href="en/index.html">English</a>
