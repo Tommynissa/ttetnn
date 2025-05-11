@@ -8,11 +8,22 @@
 <link href="css/style.css" rel="stylesheet"/>
 <style>
 body {
+  position: relative;
+}
+body::after {
+  content: "";
   background-image: url('images/branche_olivier.png');
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size: 250px auto;
-  background-attachment: fixed;
+  background-size: 400px auto;
+  opacity: 0.25;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  height: 400px;
+  pointer-events: none;
+  z-index: 0;
 }
 </style></head>
 <body>
