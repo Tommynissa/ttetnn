@@ -11,20 +11,18 @@
 <img alt="Bienvenue à Nice" class="header-img" src="../images/header.jpg"/>
 <h1>Bienvenue dans votre logement</h1>
 
-<div class="weatherwidget-wrapper" style="text-align: center; margin-bottom: 2em;">
-<a class="weatherwidget-io" data-basecolor="transparent" data-cloudcolor="#ccc" data-highcolor="#ffd700" data-label_1="NICE" data-label_2="MÉTÉO" data-lowcolor="#a87d2d" data-mooncolor="#fff3b2" data-raincolor="#00aaff" data-snowcolor="#ffffff" data-suncolor="#ffd700" data-textcolor="#fff3b2" data-theme="original" href="https://forecast7.com/fr/43d71n7d27/nice/">
-    Météo Nice
-  </a>
+<div class="meteo" style="text-align:center; margin-bottom: 2em;">
+<a class="weatherwidget-io" data-label_1="NICE" data-label_2="WEATHER" data-theme="original" href="https://forecast7.com/fr/43d717d26/nice/">NICE WEATHER</a>
 </div>
 <script>
-  !function(d,s,id){
-    var js,fjs=d.getElementsByTagName(s)[0];
-    if(!d.getElementById(id)){
-      js=d.createElement(s);js.id=id;
-      js.src='https://weatherwidget.io/js/widget.min.js';
-      fjs.parentNode.insertBefore(js,fjs);
-    }
-  }(document,'script','weatherwidget-io-js');
+!function(d,s,id){
+  var js,fjs=d.getElementsByTagName(s)[0];
+  if(!d.getElementById(id)){
+    js=d.createElement(s);js.id=id;
+    js.src='https://weatherwidget.io/js/widget.min.js';
+    fjs.parentNode.insertBefore(js,fjs);
+  }
+}(document,'script','weatherwidget-io-js');
 </script>
 <a class="button" href="checkin_checkout.html">Accès et infos pratiques</a>
 <a class="button" href="wifi.html">Wi-Fi</a>
