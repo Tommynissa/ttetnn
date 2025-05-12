@@ -8,8 +8,15 @@
 <link href="css/style.css" rel="stylesheet"/>
 <style>
 body {
+  font-family: 'IM Fell English SC', serif;
+  font-size: 1.1em;
+  background-color: #ffffff;
+  color: #2e3d27;
+  padding: 2em;
+  text-align: center;
   position: relative;
 }
+
 body::after {
   content: "";
   background-image: url('images/branche_olivier.png');
@@ -24,40 +31,6 @@ body::after {
   height: 400px;
   pointer-events: none;
   z-index: 0;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.titre {
-  margin-top: 2em;
-}
-
-.boutons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  height: 45vh;
-  gap: 6px;
-}
-
-body {
-  font-family: 'IM Fell English SC', serif;
-  font-size: 1.1em;
-  background-color: #ffffff;
-  color: #2e3d27;
-  padding: 2em;
-  text-align: center;
-  position: relative;
-  background-image: url('images/branche_olivier.png');
-  background-repeat: no-repeat;
-  background-position: bottom right;
-  background-size: 400px auto;
-  background-attachment: fixed;
 }
 
 h1 {
@@ -77,7 +50,7 @@ h1 {
 
 .button {
   background-color: #a7b77d;
-  color: #000;
+  color: #fff;
   font-family: 'IM Fell English SC', serif;
   font-size: 1.1em;
   text-decoration: none;
