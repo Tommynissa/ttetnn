@@ -1,58 +1,53 @@
-
 <!DOCTYPE html>
+
 <html lang="fr">
 <head>
-  <meta charset="utf-8"/>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-  <title>Bienvenue / Welcome</title>
-  <link href="css/style.css" rel="stylesheet"/>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-      background-image: url('images/branche_olivier.png');
-      background-repeat: no-repeat;
-      background-position: bottom right;
-      background-size: 250px auto;
-      background-attachment: fixed;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bienvenue / Welcome</title>
+<link href="css/style.css" rel="stylesheet"/>
+<style>
+body {
+  position: relative;
+}
+body::after {
+  content: "";
+  background-image: url('images/branche_olivier.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 400px auto;
+  opacity: 0.25;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  height: 400px;
+  pointer-events: none;
+  z-index: 0;
+}
 
-    h1 {
-      text-align: center;
-      margin: 20px 0;
-    }
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-    .center-buttons {
-      flex: 1;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
+.titre {
+  margin-top: 2em;
+}
 
-    .button {
-      display: inline-block;
-      margin: 10px;
-      padding: 12px 24px;
-      background-color: #a87d2d;
-      color: white;
-      text-decoration: none;
-      font-size: 18px;
-      border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-    }
-  </style>
-</head>
+.boutons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70vh;
+  gap: 20px;
+}
+</style></head>
 <body>
-  <h1>Bienvenue / Welcome</h1>
+<h1 class="titre">Bienvenue / Welcome</h1><div class="boutons"><a class="button" href="fr/index.html">Français</a><a class="button" href="en/index.html">English</a></div>
 
-  <div class="center-buttons">
-    <a class="button" href="fr/index.html">Français</a>
-    <a class="button" href="en/index.html">English</a>
-  </div>
+
 </body>
 </html>
