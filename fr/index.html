@@ -6,14 +6,46 @@
 <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
 <title>Bienvenue</title>
 <link href="../css/style.css" rel="stylesheet"/>
-</head>
-<body>
+<style>
+.container-nouvelle-home {
+    text-align: center;
+    margin-bottom: 2em;
+}
+.top-block {
+    background-color: #f2f9f5;
+    color: #6e814a;
+    padding: 1.5em;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 1em;
+    font-size: 1.2em;
+}
+.button-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 0 1em 2em 1em;
+}
+a.button {
+    display: block;
+    background-color: #dce5cd;
+    color: black;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    font-weight: bold;
+}
 
-<div class="meteo" style="text-align:center; margin-bottom: 1.5em;">
-<a class="weatherwidget-io" data-basecolor="transparent" data-cloudcolor="#6e814a" data-days="3" data-font="Arial" data-highcolor="#6e814a" data-icons="Climacons Animated" data-label_1="Nice" data-label_2="Météo" data-lowcolor="#6e814a" data-mode="Horizontal" data-mooncolor="#6e814a" data-raincolor="#6e814a" data-snowcolor="#6e814a" data-suncolor="#6e814a" data-textcolor="#8fa77b" data-theme="pure" href="https://forecast7.com/fr/43d717d26/nice/" style="height: 65px;">
-    Météo Nice
-  </a>
-</div>
+a.button {
+    color: white !important;
+}
+</style></head>
+<body><div class="container-nouvelle-home"><div class="top-block">
+<a class="weatherwidget-io" data-accent="#6e814a" data-basecolor="#f2f9f5" data-font="Arial" data-icons="Climacons Animated" data-label_1="NICE" data-label_2="Prévisions Météo" data-textcolor="#6e814a" data-theme="weather_one" href="https://forecast7.com/fr/43d717d26/nice/">
+   Météo Nice
+</a>
 <script>
 !function(d,s,id){
   var js,fjs=d.getElementsByTagName(s)[0];
@@ -24,13 +56,5 @@
   }
 }(document,'script','weatherwidget-io-js');
 </script>
-<a class="button" href="checkin_checkout.html">Accès et infos pratiques</a>
-<a class="button" href="wifi.html">Wi-Fi</a>
-<a class="button" href="equipement.html">Equipements</a>
-<a class="button" href="restauration.html">Restauration</a>
-<a class="button" href="lieux.html">À visiter</a>
-<a class="button" href="courses.html">Courses</a>
-<a class="button" href="transports.html">Transports</a>
-<a class="button" href="urgences.html">Urgences</a>
-</body>
+</div></div><div class="button-grid"><a class="button" href="checkin_checkout.html">Accès et infos pratiques<div style="color:#999; font-size: 0.8em; margin-top: 0.2em;">Accès, clé, parking...</div></a><a class="button" href="wifi.html">Wi-Fi<div style="color:#999; font-size: 0.8em; margin-top: 0.2em;">Nom du réseau et code Wi-Fi</div></a><a class="button" href="equipement.html">Equipements<div style="color:#999; font-size: 0.8em; margin-top: 0.2em;">Cuisine, TV, canapé-lit...</div></a><a class="button" href="restauration.html">Restauration<div style="color:#999; font-size: 0.8em; margin-top: 0.2em;">Restaurants et spécialités</div></a><a class="button" href="lieux.html">À visiter<div style="color:#999; font-size: 0.8em; margin-top: 0.2em;">Monuments, plages, musées...</div></a><a class="button" href="courses.html">Courses<div style="color:#999; font-size: 0.8em; margin-top: 0.2em;">Supermarché, boulangerie, pharmacie</div></a><a class="button" href="transports.html">Transports<div style="color:#999; font-size: 0.8em; margin-top: 0.2em;">Tram, scooters, gare SNCF</div></a><a class="button" href="urgences.html">Urgences<div style="color:#999; font-size: 0.8em; margin-top: 0.2em;">Hôpital, SOS médecin, pharmacie</div></a></div></body>
 </html>

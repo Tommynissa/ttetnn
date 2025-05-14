@@ -1,22 +1,36 @@
 <!DOCTYPE html>
+
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Bienvenue</title>
-  <link rel="stylesheet" href="../css/style.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bienvenue</title>
+<link href="../css/style.css" rel="stylesheet"/>
 </head>
 <body>
-  <img src="../images/header.jpg" class="header-img" alt="Bienvenue à Nice">
-  <h1>Bienvenue dans votre logement</h1>
-  <a href="checkin_checkout.html" class="button">Accès et infos pratiques</a>
-<a href="wifi.html" class="button">Wi-Fi</a>
-  <a href="equipement.html" class="button">equipements</a>
-  <a href="restauration.html" class="button">Restauration</a>
-  <a href="lieux.html" class="button">À visiter</a>
-  <a href="courses.html" class="button">Courses</a>
-  <a href="transports.html" class="button">Transports</a>
-  <a href="urgences.html" class="button">Urgences</a>
-  <a href="meteo.html" class="button">Météo</a>
+
+<div class="meteo" style="text-align:center; margin-bottom: 1.5em;">
+<a class="weatherwidget-io" data-basecolor="transparent" data-cloudcolor="#6e814a" data-days="3" data-font="Arial" data-highcolor="#6e814a" data-icons="Climacons Animated" data-label_1="Nice" data-label_2="Météo" data-lowcolor="#6e814a" data-mode="Horizontal" data-mooncolor="#6e814a" data-raincolor="#6e814a" data-snowcolor="#6e814a" data-suncolor="#6e814a" data-textcolor="#8fa77b" data-theme="pure" href="https://forecast7.com/fr/43d717d26/nice/" style="height: 65px;">
+    Météo Nice
+  </a>
+</div>
+<script>
+!function(d,s,id){
+  var js,fjs=d.getElementsByTagName(s)[0];
+  if(!d.getElementById(id)){
+    js=d.createElement(s);js.id=id;
+    js.src='https://weatherwidget.io/js/widget.min.js';
+    fjs.parentNode.insertBefore(js,fjs);
+  }
+}(document,'script','weatherwidget-io-js');
+</script>
+<a class="button" href="checkin_checkout.html">Accès et infos pratiques</a>
+<a class="button" href="wifi.html">Wi-Fi</a>
+<a class="button" href="equipement.html">Equipements</a>
+<a class="button" href="restauration.html">Restauration</a>
+<a class="button" href="lieux.html">À visiter</a>
+<a class="button" href="courses.html">Courses</a>
+<a class="button" href="transports.html">Transports</a>
+<a class="button" href="urgences.html">Urgences</a>
 </body>
 </html>
