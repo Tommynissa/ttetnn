@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Bienvenue</title>
+<style>
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Grille */
+.button-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 1em;
+}
+
+/* Boutons */
+a.button {
+    background-color: #a7b77d !important;
+    color: white !important;
+    text-decoration: none !important;
+    height: 100px !important;
+    border-radius: 12px !important;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    font-family: Arial, sans-serif;
+    padding: 0.5em !important;
+    margin: 0 !important;
+}
+
+/* Titre du bouton */
+a.button .button-title {
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    color: #ffffff !important;
+    line-height: 1.2em;
+}
+
+/* Description du bouton */
+a.button .button-desc {
+    font-size: 0.9em !important;
+    color: #cccccc !important;
+    margin-top: 0.3em !important;
+    line-height: 1.1em;
+}
+</style></head>
+<body><div class="meteo" style="text-align:center; margin-bottom: 1.5em;">
+<a class="weatherwidget-io" data-basecolor="transparent" data-cloudcolor="#6e814a" data-days="3" data-font="Arial" data-highcolor="#6e814a" data-icons="Climacons Animated" data-label_1="Nice" data-label_2="Météo" data-lowcolor="#6e814a" data-mode="Horizontal" data-mooncolor="#6e814a" data-raincolor="#6e814a" data-snowcolor="#6e814a" data-suncolor="#6e814a" data-textcolor="#8fa77b" data-theme="pure" href="https://forecast7.com/fr/43d717d26/nice/" style="height: 65px;">
+   Météo Nice
+</a>
+</div><div class="container-nouvelle-home"></div>
+<script>
+!function(d,s,id){
+  var js,fjs=d.getElementsByTagName(s)[0];
+  if(!d.getElementById(id)){
+    js=d.createElement(s);js.id=id;
+    js.src='https://weatherwidget.io/js/widget.min.js';
+    fjs.parentNode.insertBefore(js,fjs);
+  }
+}(document,'script','weatherwidget-io-js');
+</script>
+<div class="button-grid"><a class="button" href="checkin_checkout.html"><span class="button-title">Accès et infos</span><span class="button-desc">Clé, parking, arrivée...</span></a><a class="button" href="wifi.html"><span class="button-title">Wi-Fi</span><span class="button-desc">Nom et mot de passe</span></a><a class="button" href="equipement.html"><span class="button-title">Équipements</span><span class="button-desc">Cuisine, TV, canapé-lit</span></a><a class="button" href="restauration.html"><span class="button-title">Restauration</span><span class="button-desc">Restaurants, spécialités</span></a><a class="button" href="lieux.html"><span class="button-title">À visiter</span><span class="button-desc">Monuments, plages, musées</span></a><a class="button" href="courses.html"><span class="button-title">Courses</span><span class="button-desc">Épicerie, boulangerie, pharmacie</span></a><a class="button" href="transports.html"><span class="button-title">Transports</span><span class="button-desc">Tram, bus, vélos, gare</span></a><a class="button" href="urgences.html"><span class="button-title">Urgences</span><span class="button-desc">Médecins, hôpital, pharmacie</span></a></div></body>
+</html>
