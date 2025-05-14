@@ -10,26 +10,35 @@
 .button-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 1em;
+    gap: 0.8em;
     padding: 1em;
 }
+
 a.button {
     background-color: #a7b77d;
     color: white;
+    text-decoration: none;
     height: 100px;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-decoration: none;
-    border-radius: 12px;
-    font-weight: bold;
+    text-align: center;
     box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 0.5em;
+    font-family: Arial, sans-serif;
 }
-a.button .desc {
-    color: #cccccc;
+
+a.button .button-title {
+    font-size: 1em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+a.button .button-desc {
     font-size: 0.75em;
-    font-weight: normal;
+    color: #cccccc;
     margin-top: 0.3em;
 }
 </style></head>
@@ -48,5 +57,5 @@ a.button .desc {
   }
 }(document,'script','weatherwidget-io-js');
 </script>
-<div class="button-grid"><a class="button" href="checkin_checkout.html"><span>Accès et infos</span><div class="desc">Clé, parking, arrivée...</div></a><a class="button" href="wifi.html"><span>Wi-Fi</span><div class="desc">Nom et mot de passe</div></a><a class="button" href="equipement.html"><span>Équipements</span><div class="desc">Cuisine, TV, canapé-lit</div></a><a class="button" href="restauration.html"><span>Restauration</span><div class="desc">Restaurants, spécialités</div></a><a class="button" href="lieux.html"><span>À visiter</span><div class="desc">Monuments, plages, musées</div></a><a class="button" href="courses.html"><span>Courses</span><div class="desc">Épicerie, boulangerie, pharmacie</div></a><a class="button" href="transports.html"><span>Transports</span><div class="desc">Tram, bus, vélos, gare</div></a><a class="button" href="urgences.html"><span>Urgences</span><div class="desc">Médecins, hôpital, pharmacie</div></a></div></body>
+<div class="button-grid"><a class="button" href="checkin_checkout.html"><span class="button-title">Accès et infos</span><span class="button-desc">Clé, parking, arrivée...</span></a><a class="button" href="wifi.html"><span class="button-title">Wi-Fi</span><span class="button-desc">Nom et mot de passe</span></a><a class="button" href="equipement.html"><span class="button-title">Équipements</span><span class="button-desc">Cuisine, TV, canapé-lit</span></a><a class="button" href="restauration.html"><span class="button-title">Restauration</span><span class="button-desc">Restaurants, spécialités</span></a><a class="button" href="lieux.html"><span class="button-title">À visiter</span><span class="button-desc">Monuments, plages, musées</span></a><a class="button" href="courses.html"><span class="button-title">Courses</span><span class="button-desc">Épicerie, boulangerie, pharmacie</span></a><a class="button" href="transports.html"><span class="button-title">Transports</span><span class="button-desc">Tram, bus, vélos, gare</span></a><a class="button" href="urgences.html"><span class="button-title">Urgences</span><span class="button-desc">Médecins, hôpital, pharmacie</span></a></div></body>
 </html>
