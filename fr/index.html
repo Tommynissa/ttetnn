@@ -7,81 +7,6 @@
 <title>Bienvenue</title>
 <link href="../css/style.css" rel="stylesheet"/>
 <style>
-.container-nouvelle-home {
-    text-align: center;
-    margin-bottom: 2em;
-}
-.top-block {
-    background-color: #f2f9f5;
-    color: #6e814a;
-    padding: 1.5em;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    margin: 1em;
-    font-size: 1.2em;
-}
-.button-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em;
-    padding: 0 1em 2em 1em;
-}
-a.button {
-    display: block;
-    background-color: #dce5cd;
-    color: black;
-    padding: 1em;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    font-weight: bold;
-}
-
-a.button {
-    color: white !important;
-}
-
-.button-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1em 0.8em;
-    padding: 0 1em 1em 1em;
-}
-a.button {
-    background-color: #ffffff !important;
-    color: #000000 !important;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    border-radius: 15px;
-}
-a.button div {
-    color: #999999 !important;
-    font-size: 0.75em;
-}
-.top-block {
-    background-color: #ffffff !important;
-    color: #000000 !important;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    border-radius: 15px;
-    padding: 1.5em;
-    margin: 1em;
-    text-align: center;
-}
-
-a.button {
-    background-color: #a7b77d !important;
-    color: white !important;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    border-radius: 15px;
-}
-
-a.button {
-    min-height: 65px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .button-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -89,30 +14,30 @@ a.button {
     padding: 1em;
 }
 a.button {
-    background-color: #a7b77d !important;
-    color: white !important;
-    height: 90px;
+    background-color: #a7b77d;
+    color: white;
+    height: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
     text-decoration: none;
-    border-radius: 15px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border-radius: 12px;
     font-weight: bold;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
 }
-a.button div {
-    color: #6e6e6e !important;
+a.button .desc {
+    color: #cccccc;
     font-size: 0.75em;
-    margin-top: 0.2em;
+    font-weight: normal;
+    margin-top: 0.3em;
 }
 </style></head>
 <body><div class="meteo" style="text-align:center; margin-bottom: 1.5em;">
 <a class="weatherwidget-io" data-basecolor="transparent" data-cloudcolor="#6e814a" data-days="3" data-font="Arial" data-highcolor="#6e814a" data-icons="Climacons Animated" data-label_1="Nice" data-label_2="Météo" data-lowcolor="#6e814a" data-mode="Horizontal" data-mooncolor="#6e814a" data-raincolor="#6e814a" data-snowcolor="#6e814a" data-suncolor="#6e814a" data-textcolor="#8fa77b" data-theme="pure" href="https://forecast7.com/fr/43d717d26/nice/" style="height: 65px;">
    Météo Nice
 </a>
-</div><div class="container-nouvelle-home"></div><div class="button-grid"><a class="button" href="checkin_checkout.html">Accès et infos pratiques<div style="color:#999; font-size: 0.8em; margin-top: 0.2em;">Accès, clé, parking...</div></a><a class="button" href="wifi.html">Wi-Fi<div style="color:#999; font-size: 0.8em; margin-top: 0.2em;">Nom du réseau et code Wi-Fi</div></a><a class="button" href="equipement.html">Equipements<div style="color:#999; font-size: 0.8em; margin-top: 0.2em;">Cuisine, TV, canapé-lit...</div></a><a class="button" href="restauration.html">Restauration<div style="color:#999; font-size: 0.8em; margin-top: 0.2em;">Restaurants et spécialités</div></a><a class="button" href="lieux.html">À visiter<div style="color:#999; font-size: 0.8em; margin-top: 0.2em;">Monuments, plages, musées...</div></a><a class="button" href="courses.html">Courses<div style="color:#999; font-size: 0.8em; margin-top: 0.2em;">Supermarché, boulangerie, pharmacie</div></a><a class="button" href="transports.html">Transports<div style="color:#999; font-size: 0.8em; margin-top: 0.2em;">Tram, scooters, gare SNCF</div></a><a class="button" href="urgences.html">Urgences<div style="color:#999; font-size: 0.8em; margin-top: 0.2em;">Hôpital, SOS médecin, pharmacie</div></a></div>
+</div><div class="container-nouvelle-home"></div>
 <script>
 !function(d,s,id){
   var js,fjs=d.getElementsByTagName(s)[0];
@@ -123,5 +48,5 @@ a.button div {
   }
 }(document,'script','weatherwidget-io-js');
 </script>
-</body>
+<div class="button-grid"><a class="button" href="checkin_checkout.html"><span>Accès et infos</span><div class="desc">Clé, parking, arrivée...</div></a><a class="button" href="wifi.html"><span>Wi-Fi</span><div class="desc">Nom et mot de passe</div></a><a class="button" href="equipement.html"><span>Équipements</span><div class="desc">Cuisine, TV, canapé-lit</div></a><a class="button" href="restauration.html"><span>Restauration</span><div class="desc">Restaurants, spécialités</div></a><a class="button" href="lieux.html"><span>À visiter</span><div class="desc">Monuments, plages, musées</div></a><a class="button" href="courses.html"><span>Courses</span><div class="desc">Épicerie, boulangerie, pharmacie</div></a><a class="button" href="transports.html"><span>Transports</span><div class="desc">Tram, bus, vélos, gare</div></a><a class="button" href="urgences.html"><span>Urgences</span><div class="desc">Médecins, hôpital, pharmacie</div></a></div></body>
 </html>
