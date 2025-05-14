@@ -97,16 +97,7 @@ a.button .button-desc {
    Météo Nice
 </a>
 </div><div class="carousel-slide"><img alt="Rue animée à Nice" src="images/nice_rue.jpg" style="width:100%; height:100%; object-fit:cover; border-radius:12px;"/></div></div><div class="carousel-indicators"><span class="dot" data-index="0"></span><span class="dot" data-index="1"></span></div></div><div class="container-nouvelle-home"></div>
-<script>
-!function(d,s,id){
-  var js,fjs=d.getElementsByTagName(s)[0];
-  if(!d.getElementById(id)){
-    js=d.createElement(s);js.id=id;
-    js.src='https://weatherwidget.io/js/widget.min.js';
-    fjs.parentNode.insertBefore(js,fjs);
-  }
-}(document,'script','weatherwidget-io-js');
-</script>
+
 <div class="button-grid"><a class="button" href="checkin_checkout.html"><span class="button-title">Accès et infos</span><span class="button-desc">Clé, parking, arrivée...</span></a><a class="button" href="wifi.html"><span class="button-title">Wi-Fi</span><span class="button-desc">Nom et mot de passe</span></a><a class="button" href="equipement.html"><span class="button-title">Équipements</span><span class="button-desc">Cuisine, TV, canapé-lit</span></a><a class="button" href="restauration.html"><span class="button-title">Restauration</span><span class="button-desc">Restaurants, spécialités</span></a><a class="button" href="lieux.html"><span class="button-title">À visiter</span><span class="button-desc">Monuments, plages, musées</span></a><a class="button" href="courses.html"><span class="button-title">Courses</span><span class="button-desc">Épicerie, boulangerie, pharmacie</span></a><a class="button" href="transports.html"><span class="button-title">Transports</span><span class="button-desc">Tram, bus, vélos, gare</span></a><a class="button" href="urgences.html"><span class="button-title">Urgences</span><span class="button-desc">Médecins, hôpital, pharmacie</span></a></div><script>
 let currentSlide = 0;
 const slides = document.querySelector('.carousel-slides');
@@ -124,5 +115,26 @@ dots.forEach(dot => {
     });
 });
 showSlide(currentSlide);
+</script><script>
+document.addEventListener("DOMContentLoaded", function() {
+    let currentSlide = 0;
+    const slides = document.querySelector('.carousel-slides');
+    const dots = document.querySelectorAll('.dot');
+
+    function showSlide(index) {
+        slides.style.transform = 'translateX(' + (-index * 100) + '%)';
+        dots.forEach(dot => dot.classList.remove('active'));
+        dots[index].classList.add('active');
+    }
+
+    dots.forEach(dot => {
+        dot.addEventListener('click', () => {
+            currentSlide = parseInt(dot.dataset.index);
+            showSlide(currentSlide);
+        });
+    });
+
+    showSlide(currentSlide);
+});
 </script></body>
 </html>
