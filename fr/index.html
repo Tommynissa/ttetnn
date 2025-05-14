@@ -81,6 +81,20 @@ a.button {
     flex-direction: column;
     justify-content: center;
 }
+
+.button-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.8em;
+    padding: 0 1em 1em 1em;
+}
+a.button {
+    min-height: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 </style></head>
 <body><div class="container-nouvelle-home"><div class="top-block" style="text-align:center; margin-bottom: 1.5em;">
 <a class="weatherwidget-io" data-basecolor="transparent" data-cloudcolor="#6e814a" data-days="3" data-font="Arial" data-highcolor="#6e814a" data-icons="Climacons Animated" data-label_1="Nice" data-label_2="Météo" data-lowcolor="#6e814a" data-mode="Horizontal" data-mooncolor="#6e814a" data-raincolor="#6e814a" data-snowcolor="#6e814a" data-suncolor="#6e814a" data-textcolor="#8fa77b" data-theme="pure" href="https://forecast7.com/fr/43d717d26/nice/" style="height: 65px;">
