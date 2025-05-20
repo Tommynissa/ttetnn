@@ -1,21 +1,84 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome</title>
-  <link rel="stylesheet" href="../css/style.css">
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Welcome</title>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.button-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+    padding: 1em;
+}
+a.button {
+    background-color: #a7b77d;
+    color: white;
+    text-decoration: none;
+    height: 100px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    padding: 0.5em 0.5em 2.2em 0.5em;
+    font-family: Arial, sans-serif;
+    position: relative;
+}
+a.button .button-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #ffffff;
+}
+a.button .button-desc {
+    font-size: 0.9em;
+    color: #cccccc;
+    margin-top: 0.3em;
+}
+.btn-icon {
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+    width: 24px;
+    height: 24px;
+    opacity: 0.8;
+}
+</style>
 </head>
 <body>
-  <img src="../images/header.jpg" class="header-img" alt="Welcome to Nice">
-  <h1>Welcome to your accommodation</h1>
-  <a href="checkin_checkout.html" class="button">Access & Info</a>
-  <a href="equipment.html" class="button">Equipment</a>
-  <a href="delivery.html" class="button">Food delivery</a>
-  <a href="places.html" class="button">Places to visit</a>
-  <a href="shopping.html" class="button">Groceries</a>
-  <a href="transport.html" class="button">Transport</a>
-  <a href="emergency.html" class="button">Emergency</a>
-  <a href="weather.html" class="button">Weather</a>
+<div class="meteo" style="text-align:center; margin-bottom: 1.5em;">
+<a class="weatherwidget-io" data-basecolor="transparent" data-cloudcolor="#6e814a" data-days="3" data-font="Arial" data-highcolor="#6e814a" data-icons="Climacons Animated" data-label_1="Nice" data-label_2="Weather" data-lowcolor="#6e814a" data-mode="Horizontal" data-mooncolor="#6e814a" data-raincolor="#6e814a" data-snowcolor="#6e814a" data-suncolor="#6e814a" data-textcolor="#8fa77b" data-theme="pure" href="https://forecast7.com/en/43d717d26/nice/" style="height: 65px;">
+   Nice Weather
+</a>
+</div>
+<div class="container-nouvelle-home"></div>
+<script>
+!function(d,s,id){
+  var js,fjs=d.getElementsByTagName(s)[0];
+  if(!d.getElementById(id)){
+    js=d.createElement(s);js.id=id;
+    js.src='https://weatherwidget.io/js/widget.min.js';
+    fjs.parentNode.insertBefore(js,fjs);
+  }
+}(document,'script','weatherwidget-io-js');
+</script>
+<div class="button-grid">
+<a class="button" href="checkin_checkout.html"><img alt="" class="btn-icon" src="../images/icones/cle.png"/><span class="button-title">Access & Info</span><span class="button-desc">Keys, parking, check-in...</span></a>
+<a class="button" href="wifi.html"><img alt="" class="btn-icon" src="../images/icones/wifi.png"/><span class="button-title">Wi-Fi</span><span class="button-desc">Name and password</span></a>
+<a class="button" href="equipement.html"><img alt="" class="btn-icon" src="../images/icones/appareil.png"/><span class="button-title">Equipment</span><span class="button-desc">Kitchen, TV, sofa bed</span></a>
+<a class="button" href="restauration.html"><img alt="" class="btn-icon" src="../images/icones/couverts.png"/><span class="button-title">Food & Delivery</span><span class="button-desc">Recommended places</span></a>
+<a class="button" href="lieux.html"><img alt="" class="btn-icon" src="../images/icones/photo.png"/><span class="button-title">Things to See</span><span class="button-desc">Landmarks, beaches, museums</span></a>
+<a class="button" href="courses.html"><img alt="" class="btn-icon" src="../images/icones/courses.png"/><span class="button-title">Groceries</span><span class="button-desc">Bakery, supermarket, pharmacy</span></a>
+<a class="button" href="transports.html"><img alt="" class="btn-icon" src="../images/icones/tram.png"/><span class="button-title">Transport</span><span class="button-desc">Tram, bus, bikes, train</span></a>
+<a class="button" href="urgences.html"><img alt="" class="btn-icon" src="../images/icones/urgence.png"/><span class="button-title">Emergency</span><span class="button-desc">Doctors, hospital, pharmacy</span></a>
+</div>
 </body>
 </html>
