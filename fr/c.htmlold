@@ -50,11 +50,6 @@
 </head>
 <body>
 
-  <div style="text-align: right;">
-    <a href="c.html"><img src="../images/fr.png" alt="Français" style="height: 24px; margin-right: 10px;"></a>
-    <a href="c_en.html"><img src="../images/gb.png" alt="English" style="height: 24px;"></a>
-  </div>
-
   <div style="text-align: left; margin-bottom: 1em;">
     <a href="index.html" style="text-decoration: none; font-weight: bold; color: #7a8a47;">← Accueil</a>
   </div>
@@ -91,7 +86,6 @@
   <div class="section">
     <div class="section-title">Photos d'accès</div>
     <div class="section-content">
-      <img src="../images/Boite4.jpeg" alt="Vue générale - boîte à clefs">
       <img src="../images/Boite1.jpeg" alt="Vue générale - entrée résidence">
       <img src="../images/Boite2.jpeg" alt="Passage entre poteau et voiture">
       <img src="../images/Boite3.jpeg" alt="Localisation exacte de la boîte">
