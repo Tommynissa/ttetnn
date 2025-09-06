@@ -1,0 +1,204 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Thomas/Calendar//Aigles de Nice Domicile 25-26//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:1518035c-fe9d-4043-a1a5-2e02130b86ac@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20250912T200000
+DTEND;TZID=Europe/Monaco:20250912T220000
+SUMMARY:Aigles de Nice vs Chamonix Mont-Blanc
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:23473551-2096-4034-90c1-2a9361d88ec8@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20250919T200000
+DTEND;TZID=Europe/Monaco:20250919T220000
+SUMMARY:Aigles de Nice vs Anglet
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:72242488-fbf1-4e0f-aee1-67721824d4d8@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20250926T200000
+DTEND;TZID=Europe/Monaco:20250926T220000
+SUMMARY:Aigles de Nice vs Marseille
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:579091aa-6374-4cc8-8b49-b36fe586df27@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20251010T200000
+DTEND;TZID=Europe/Monaco:20251010T220000
+SUMMARY:Aigles de Nice vs Briançon
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:e8eba1e7-b259-49cf-bf6e-a46be4ee64f8@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20251017T200000
+DTEND;TZID=Europe/Monaco:20251017T220000
+SUMMARY:Aigles de Nice vs Bordeaux
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:ca4e5886-8f0e-4d05-9a63-3c339cc51d77@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20251026T173000
+DTEND;TZID=Europe/Monaco:20251026T193000
+SUMMARY:Aigles de Nice vs Grenoble
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:ad5d89b7-5502-417c-89f5-3d27fe0f3016@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20251030T200000
+DTEND;TZID=Europe/Monaco:20251030T220000
+SUMMARY:Aigles de Nice vs Angers
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:41aa6336-1b99-40cf-a970-8dcae7b0d4c6@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20251114T200000
+DTEND;TZID=Europe/Monaco:20251114T220000
+SUMMARY:Aigles de Nice vs Rouen
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:2fed95ef-2bc9-4a4e-b4b7-6c3ef531bdf0@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20251118T200000
+DTEND;TZID=Europe/Monaco:20251118T220000
+SUMMARY:Aigles de Nice vs Cergy-Pontoise
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:dcefe23a-70dd-4536-b334-5aaa6fa2ac2a@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20251123T173000
+DTEND;TZID=Europe/Monaco:20251123T193000
+SUMMARY:Aigles de Nice vs Gap
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:97f044d2-86ff-477c-a5c5-7e0d9aebf950@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20251130T173000
+DTEND;TZID=Europe/Monaco:20251130T193000
+SUMMARY:Aigles de Nice vs Amiens
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:bffe7dd8-96ec-4b7c-9450-d97ede6b5612@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20251205T200000
+DTEND;TZID=Europe/Monaco:20251205T220000
+SUMMARY:Aigles de Nice vs Gap
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:6244f5a0-87f9-4d6b-b122-2e05f7729c79@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20251219T200000
+DTEND;TZID=Europe/Monaco:20251219T220000
+SUMMARY:Aigles de Nice vs Angers
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:19a45471-050e-487a-95d0-d9872f67157b@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20251223T200000
+DTEND;TZID=Europe/Monaco:20251223T220000
+SUMMARY:Aigles de Nice vs Rouen
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:09a9c1a0-ddfd-418d-81e2-f0496657f969@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20260102T200000
+DTEND;TZID=Europe/Monaco:20260102T220000
+SUMMARY:Aigles de Nice vs Marseille
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:10812d2a-1974-4286-80dd-52f529df7c8c@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20260113T200000
+DTEND;TZID=Europe/Monaco:20260113T220000
+SUMMARY:Aigles de Nice vs Grenoble
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:a3648e36-e5f8-4ab3-b525-62f45f2b70e4@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20260120T200000
+DTEND;TZID=Europe/Monaco:20260120T220000
+SUMMARY:Aigles de Nice vs Bordeaux
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:0cfd2e6c-eae5-4157-aead-8169f625a139@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20260127T200000
+DTEND;TZID=Europe/Monaco:20260127T220000
+SUMMARY:Aigles de Nice vs Anglet
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:be01804b-32a2-4bf4-8c79-ee94ccf42d3e@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20260206T200000
+DTEND;TZID=Europe/Monaco:20260206T220000
+SUMMARY:Aigles de Nice vs Briançon
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:05a02d71-ab7b-416b-8be3-075708d29a04@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20260224T200000
+DTEND;TZID=Europe/Monaco:20260224T220000
+SUMMARY:Aigles de Nice vs Chamonix Mont-Blanc
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:7b5f7a4f-5c85-40cf-93f4-2d3dab1e94c4@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20260227T200000
+DTEND;TZID=Europe/Monaco:20260227T220000
+SUMMARY:Aigles de Nice vs Cergy-Pontoise
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+BEGIN:VEVENT
+UID:3a85e09d-70f6-48a1-99a4-aea7b4e39517@aigles-nice-home
+DTSTAMP:20250906T163658Z
+DTSTART;TZID=Europe/Monaco:20260304T200000
+DTEND;TZID=Europe/Monaco:20260304T220000
+SUMMARY:Aigles de Nice vs Amiens
+LOCATION:Palais des Sports Jean Bouin\, Nice
+DESCRIPTION:Match de Synerglace Ligue Magnus (domicile).
+END:VEVENT
+END:VCALENDAR
